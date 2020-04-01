@@ -28,7 +28,7 @@ from rasa.nlu.extractors.extractor import EntityExtractor
 
 logger = logging.getLogger(__name__)
 
-class MSRTExtractor(Component):
+class MSRTExtractor(EntityExtractor):
     """
        Entity Extractor built using Microsoft's Recognizers Text Package.
     
